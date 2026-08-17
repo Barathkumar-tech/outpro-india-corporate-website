@@ -20,7 +20,7 @@ function Contact() {
       button.disabled = true;
       button.textContent = "Sending...";
 
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("https://outpro-india-backend-2pbr.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
